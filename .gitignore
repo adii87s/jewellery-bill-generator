@@ -1,0 +1,19 @@
+# Environment / secrets
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Local dev database fallback
+backend/dev.db
+backend/*.db
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
